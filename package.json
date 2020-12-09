@@ -1,0 +1,22 @@
+{
+  "name": "cbs-web-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canburaks/cbs-web-components.git"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "author": "Can Burak Sofyalioglu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canburaks/cbs-web-components/issues"
+  },
+  "homepage": "https://github.com/canburaks/cbs-web-components#readme"
+}
