@@ -1,0 +1,87 @@
+:host {
+  display: block;
+  position: fixed;
+  height:80px;
+  width:100%;
+}
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nav-bar {
+  position: relative;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  z-index: 10;
+}
+
+a.brand img {
+  max-width:140px;
+  height:auto;
+}
+
+.nav-bar div.toggle {
+  position: relative !important;
+  right:0;
+  z-index: 11 !important;
+  cursor: pointer;
+  width:32px;
+  height:32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* NAV MODAL */
+.nav-modal {
+  position: absolute;
+  top:0;left:0;
+  z-index: 50 !important;
+  height:0 !important;
+  display: none;
+  width:100vw;
+  padding: 128px 64px 128px 64px;
+  background-color: #1c1c1c;
+  transition: all 400ms ease-in-out;
+}
+
+.nav-modal {
+  height:100vh;
+}
+
+
+
+
+
+
+
+
+
+/* SVG HOVER */
+
+.nav-bar svg, .nav-bar svg * {
+  transition: all 250ms ease-in-out;
+}
+
+.nav-bar svg:hover #l2 {
+  display:none;
+  
+}
+.nav-bar svg:hover #l3 {
+  transform: rotate(-45deg);
+  transform-origin: 50% 16px;
+
+  width:200%;
+}
+.nav-bar svg:hover #l1 {
+  transform: rotate(45deg);
+  transform-origin: -50% -50%;
+  width:200%;
+
+}

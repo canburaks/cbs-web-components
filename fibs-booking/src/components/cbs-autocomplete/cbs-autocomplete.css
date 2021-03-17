@@ -1,0 +1,13 @@
+.autocomplete-box {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  max-width: 160px;
+}
+
+.autocomplete-box input{
+  height:28px;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 4px;
+}
